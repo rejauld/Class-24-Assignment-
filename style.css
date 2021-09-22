@@ -1,0 +1,168 @@
+body, h1, h2, h3, h4, h5, h6, a, p, span{
+    font-family: 'Spartan', sans-serif;
+}
+
+
+/* Header Section */
+.navbar{
+    background-color: #e7e6e6;
+}
+.navbar-brand img{
+    width: 80px;
+}
+.nav-item a{
+    color: #4d4d4f;
+}
+.menu-button .btn{
+    border-radius: 25px;
+    color: #0d6efd;
+    font-weight: 500;
+}
+
+
+
+/* banner-section */
+.banner-section{
+    background: #edf6ff;
+    height: 600px;
+}
+.banner-info{
+    margin-top: 80px;
+}
+.banner-info h2{
+    margin-bottom: 30px;
+    width: 500px;
+}
+.banner-info p{}
+
+
+.banner-button .btn{
+    border-radius: 25px;
+    padding: 10px 15px;
+}
+
+
+
+.banner-img img{
+    height: 700px;
+    width: 700px;
+    border-radius: 50%;
+}
+.banner-img{
+    margin-left: 164px;
+    margin-top: -150px;
+}
+
+
+
+
+/* Features Section */
+
+.feature-section{
+    
+}
+.feature-heading{}
+.feature-heading span{
+    color: #998aeb;
+    margin-bottom: 30px;
+    font-weight: 500;
+}
+.feature-heading h2{
+    margin-top: 20px;
+    margin-bottom: 35px;
+    width: 700px;
+    position: relative;
+}
+.feature-heading h2::after{
+    content: "";
+    position: absolute;
+    width: 6%;
+    height: 3px;
+    left: 3px;
+    bottom: -7px;
+    background-color: #998aeb;
+}
+.feature-heading p{
+    width: 50%;
+}
+
+
+
+
+
+
+
+
+
+.card{
+    border-radius: 10px;
+    border: none;
+    background: #f9fcff;
+}
+.card-icon{
+    color: #ffff;
+    background: #5252f0;
+    height: 60px;
+    width: 60px;
+    line-height: 60px;
+    border-radius: 30px 30px 30px 0;
+    text-align: center;
+    margin-bottom: 50px;
+    position: relative;
+}
+
+.card-icon::after{
+    content: "";
+    position: absolute;
+    width: 55%;
+    height: 4px;
+    left: 0px;
+    bottom: -15px;
+    background-color: #998aeb;
+}
+
+
+
+
+
+/* vedio-section */
+.vedio-section{
+    background: linear-gradient(rgba(55, 83, 119, 0.801), rgba(55, 82, 117, 0.795)), url(https://i.postimg.cc/qMMqLR4q/video-bg.jpg);
+    height: 600px;
+    
+}
+.video-info{
+    color: #ffff;
+    width: 50%;
+    margin: auto;
+}
+.video-info h5{
+    margin-bottom: 20px;
+}
+.video-info h2{
+    margin-bottom: 30px;
+    position: relative;
+}
+.video-info h2::after{
+    content: "";
+    position: absolute;
+    width: 16%;
+    height: 3px;
+    left: 270px;
+    bottom: -13px;
+    background-color: #fff;
+}
+
+.video-info p{}
+
+
+.animation-button a{
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    font-size: 60px;
+    
+
+}
+
+
